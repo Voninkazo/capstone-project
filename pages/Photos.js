@@ -6,8 +6,7 @@ import Image from '../components/Image';
 
 function Photos() {
 	const {allPhotos} = useContext(AppContext);	
-	console.log(allPhotos
-		)
+	console.log(allPhotos)
 	return (
 		<main className="photos">
 			{/* <h1>Images go here</h1> */}
